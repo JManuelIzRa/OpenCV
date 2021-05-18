@@ -21,7 +21,7 @@ args = ap.parse_args()
 image = cv2.imread(args.image)
 
 #Obtenemos las dimensiones de la imagen, altura, anchura y número de canales
-# w x h; filas x columnas
+# w x h; columnas x filas
 (h, w, c) = image.shape[:3]
 
 #Imprimir el ancho, alto y número de canales de la foto
